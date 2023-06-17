@@ -1,0 +1,152 @@
+.containerx{
+  margin:1rem;
+  text-align: center;
+
+  }
+
+.home-image{
+    height:450px;
+    max-height: 500px;
+    height:600px;
+    max-width: 700px;
+    padding:0;
+
+
+}
+
+
+
+
+.slider {
+    position:relative;
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+   .image {
+    width: 100%;
+    border-radius: 10px;
+    position:relative;
+    
+  }
+  
+ .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+ .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+   .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+
+
+
+.recipesBTN{
+
+  position:relative;
+  top: 100;
+
+}
+
+img {
+  /*  To contain the image to the confines of the div  */
+  max-width: 100%;
+  padding-top: 75px;
+}
+
+.img-gradient {
+
+  max-width: 100%; 
+  width: 800px;
+  margin: auto;
+  border-radius: 150px;
+}
+
+.img-gradient::after {
+
+  display: block;
+  position: relative;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0, #fff 100%);
+  margin-top: -250px;
+  height: 250px;
+  width: 150%;
+  content: '';
+}
+
+.dashed{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.words {
+  margin: 100;
+  width:500px;
+  min-height: 25px;
+  place-content: center;
+  background: #ffffff;
+  border-style: solid;
+  border:10px;
+
+}
+.homequote{
+  font-size: 25px;
+}
+.holdlogo{
+  position:relative;
+  padding:0;
+  bottom:80px;
+
+
+
+ 
+}
+.logo{
+  height: 300px;
+  width: 300px;
+ 
+  
+}
+
+.imageslider{
+  padding-top:0px;
+}
+.chef{
+  height:500px;
+  max-height:500px;
+  width:500px;
+  max-width:500px
+  
+}
+
+
