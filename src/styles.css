@@ -12,6 +12,7 @@ body{
     min-height:100vh;
    /* background-image: linear-gradient( 95.2deg, rgb(228, 255, 226) 50.8%, rgb(195, 195, 195) 94% )
    */
+   background-color: linear-gradient( 95.2deg, rgb(228, 255, 226) 50.8%, rgb(195, 195, 195) 94% )
 
 }
 

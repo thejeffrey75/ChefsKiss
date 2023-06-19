@@ -18,12 +18,12 @@ export function Home(){
         
         <div >
                 <div className="holdlogo">
-            <img className="logo" src={logo}></img>
+            <img className="logo" src={logo} alt='logo'></img>
         </div>
                  
-             <h1 className='homequote'>
+             {/* <h1 className='homequote'>
              Unlock the Secrets of Deliciousness: Join Our Recipe Revolution
-        </h1>
+        </h1> */}
     
         <div className='containerx' >
         <div className='imageslider'>
@@ -41,14 +41,14 @@ export function Home(){
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
         <br />
         <br />
-        - Leonardo Simon
+        - Jeffrey Simon
 
         </h2>
         </div>
      
 
         <div className="img-gradient">
-  <img className="chef"src={chef}/>
+  <img className="chef"src={chef} alt='chef'/>
 </div>
 
         </div>

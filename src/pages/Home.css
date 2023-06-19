@@ -86,9 +86,10 @@ img {
 .img-gradient {
 
   max-width: 2000px; 
-  width: 1600px;
+  width: 1500px;
   margin: auto;
-  border-radius: 150px;
+  border-radius: 100px;
+ 
 }
 
 .img-gradient::after {
@@ -124,16 +125,21 @@ img {
 
 }
 .homequote{
-  font-size: 30px;
+  font-size: 26px;
   color: #012c1098; font-family: 'Helvetica Neue', sans-serif; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;
   position:relative;
-  bottom:70px
+  bottom:70px;
+
+
+}
+.homequote:hover {
+
 }
 .holdlogo{
   position:relative;
   padding:0;
-  bottom:100px;
-  size:50px
+  bottom:20px;
+ 
 
 
 
@@ -141,9 +147,11 @@ img {
 }
 .logo{
   height: 300px;
+  max-height: 300px;
   width: 300px;
+  max-height: 300px;
   position:relative;
-  top:20px;
+  bottom:58px;
  
   
 }
@@ -154,9 +162,15 @@ img {
 .chef{
   height:500px;
   max-height:500px;
-  width:1600px;
+  width:1400px;
   max-width:2000px;
   position: relative;
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 0px;
+  right:20px;
+  padding-top: 25px;
+
 
 
   
