@@ -24,7 +24,7 @@ text-align: center;
 .nav{
 
     background-color: #023623;
-    color: white;
+    color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-between;
     align-items: stretch;
@@ -32,28 +32,15 @@ text-align: center;
     padding: 0 1rem;
 
 
-    box-shadow: inset 0 0 0 0 #ffffff;
-    color: #fcfeff;
-    margin: 0 -.25rem;
-    padding: 0 .25rem;
-    transition: color 1.5s ease-in-out, box-shadow 1.5s ease-in-out;
-
 
     
 }
 
-.nav:hover{
-    box-shadow: inset 1500px 0 0 0 #ffffff;
-    opacity: 1;
-  color: rgb(1, 54, 11);
-  transition:var(0deg);
-  border-bottom: 3px solid rgb(180, 180, 180);
 
-}
 
 .site-title{
     font-size:2rem;
-    color: #555;
+    color: #ffffff;
 }
 .nav ul{
     padding:0;
@@ -73,11 +60,11 @@ text-align: center;
 }
 
 .nav li.active{
-    background-color:  #acacac;
+    color:rgb(190, 255, 186)
 }
 
 .nav li:hover{
-    background-color: #acacac;
+  color:rgb(190, 255, 186)
 }
 .home-image{
     height:45px;

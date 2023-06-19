@@ -1,0 +1,44 @@
+.saladgrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2;
+    justify-items:left ; }
+    .div2 { grid-area: 1 / 2 / 2 / 3;
+    justify-content:right; 
+    text-align: left;
+font-size: 24px;}
+.div2 ul{
+
+list-style-position: inside;
+}
+
+
+.saladgrid img{
+    height:700px;
+    max-height: 800px;
+    width:700px;
+    max-width:800px;
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 10px;
+    box-shadow: 5px 10px 5px rgb(255, 255, 255);
+
+
+
+}
+.div2 h1{
+    text-align: center;
+    font-size: 45px;
+}
+.div2 h2{
+    text-align: center;
+    font-size: 35px;
+}
+.div2 p{
+    
+}
